@@ -1,9 +1,8 @@
 class Grid
-  include Combi
   @@grid
   @@guesses
 
-  def initialize()
+  def initialize
     @@grid = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
     @@guesses = []
   end
@@ -22,7 +21,7 @@ class Grid
   end
 
   def return_error(pos)
-    if [0..9].includes?(pos)
+    if [0..9].include?(pos)
       return 1
     else
       return nil
