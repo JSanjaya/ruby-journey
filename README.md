@@ -1,2 +1,2 @@
 # ruby-journey
-Learning Ruby
+Learning Ruby & Rails from https://www.theodinproject.com/
